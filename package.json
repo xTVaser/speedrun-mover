@@ -1,0 +1,28 @@
+{
+  "name": "speedrun-mover",
+  "version": "1.0.0",
+  "description": "Moves speedrun.com speedruns from one leaderboard to another",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xTVaser/speedrun-mover.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xTVaser/speedrun-mover/issues"
+  },
+  "homepage": "https://github.com/xTVaser/speedrun-mover#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "vorpal": "^1.12.0"
+  },
+  "bin": {
+    "speedrun-mover": "./src/cli.js"
+  }
+}
